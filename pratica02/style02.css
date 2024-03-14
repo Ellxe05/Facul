@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+img {
+    width: 350px;
+}
+img:hover {
+    margin: 30px;
+}
+img:active {
+    width: 400px;
+}
