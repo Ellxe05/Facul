@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Sobre você</h1>
+    <form action="teste.jsp" method="get">
+        <p>
+            <label>Nome: <input type="text" name="nome"></label>
+        </p>
+        <p>
+            <label>E-mail: <input type="email" name="email"></label>
+        </p>
+        <p>
+            <label>Tamanho: 
+            <input type="radio" name="altura" value="g">1,60 ou acima
+            <input type="radio" name="altura" value="p">1,59 ou abaixo</label>
+        </p>
+        <p>
+            <label>Cor da pele: 
+            <select name="corDaPele">
+                <option>Selecione</option>
+                <option>Branca</option>
+                <option>Parda</option>
+                <option>Preta</option>
+                <option>Amarela</option>
+                <option>Indígena</option>
+            </select>
+                <label>Cor do cabelo:
+                <input type="checkbox" name="loiro">Loiro
+                <input type="checkbox" name="ruivo">Ruivo
+                <input type="checkbox" name="castanho">Castanho
+                <input type="checkbox" name="preto">Preto
+            </label>
+            </label>
+        </p>
+        <p>
+            <label>Data de nascimento: <input type="date" name="nascimento">
+            </label>
+        </p>
+        <p>
+            <label>Comentário: <br>
+                <textarea cols="50" rows="10" name="msg">
+                    
+                </textarea>
+            </label>
+        </p>
+    </form>
+    <input type="submit" value="Enviar">
+</body>
+</html>
