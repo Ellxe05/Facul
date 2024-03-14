@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+.quadrado {
+    width: 120px;
+    height: 120px;
+    border: 3px solid black;
+    position: absolute;
+}
+
+.pri {
+    background-color: tan;
+}
+.seg {
+    background-color: yellow;
+    left: 0;
+    bottom: 0;
+}
+.ter {
+    background-color: yellowgreen;
+    right: 0;
+}
+.qua {
+    background-color: rgb(130, 204, 238);
+    right: 0;
+    bottom: 0;
+}
